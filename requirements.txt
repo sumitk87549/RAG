@@ -1,0 +1,10 @@
+pymupdf
+ebooklib
+beautifulsoup4
+streamlit
+chromadb
+sentence-transformers
+ollama
+loguru
+python-dotenv
+pydantic
