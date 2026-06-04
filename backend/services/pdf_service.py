@@ -4,7 +4,7 @@ import fitz
 
 class PDFService:
     def __init__(self):
-        self.books_dir = Path("data/books")
+        self.books_dir = Path("../data/books")
         self.books_dir.mkdir(parents=True, exist_ok=True)
 
     async def save_pdf(self, file:UploadFile):
